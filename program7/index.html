@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Form</title>
+  </head>
+  <body>
+    <form action="/add" method="post">
+    <h2>Employee Details Form</h2>
+
+      <label for="empid">Employee ID:</label><br />
+      <input
+        type="text"
+        id="empid"
+        name="empid"
+        placeholder="Enter Employee ID"
+        required
+      /><br /><br />
+
+      <label for="empname">Employee Name:</label><br />
+      <input
+        type="text"
+        id="empname"
+        name="empname"
+        placeholder="Enter Employee Name"
+        required
+      /><br /><br />
+
+      <label for="department">Department:</label><br />
+      <input
+        type="text"
+        id="department"
+        name="department"
+        placeholder="Enter Department"
+        required
+      /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
