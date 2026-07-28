@@ -9,7 +9,7 @@ app.get("/", function (req, res) {
 
 app.post("/login", function (req, res) {
   var name = req.body.name;
-  var roll = req.body.rollno;
+  var rollno = req.body.rollno;
   var department = req.body.department;
 
   res.send(
@@ -17,7 +17,7 @@ app.post("/login", function (req, res) {
       name +
       "</h1>" +
       "<p>Roll No: " +
-      roll +
+      rollno +
       "</p>" +
       "<p>Department: " +
       department +
